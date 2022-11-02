@@ -237,7 +237,7 @@ class SocketClient {
       config.inactivityTimeout!,
       onTimeout: (EventSink<ConnectionKeepAlive> event) {
         event.close();
-        unawaited(_closeSocketChannel());
+        _closeSocketChannel();
       },
     ).listen(null);
   }
