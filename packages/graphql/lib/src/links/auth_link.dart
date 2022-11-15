@@ -1,8 +1,7 @@
 import 'dart:async';
-import 'package:graphql/client.dart' hide HttpLinkHeaders;
+import 'package:graphql/client.dart';
 
 import 'package:gql_transform_link/gql_transform_link.dart';
-import 'package:gql_exec/src/http.dart' as http;
 typedef _RequestTransformer = FutureOr<Request> Function(Request request);
 
 typedef OnException = FutureOr<String> Function(
@@ -33,8 +32,8 @@ class AuthLink extends _AsyncReqTransformLink {
   ) =>
       (Request request) async {
         final token = await getToken();
-        return request.updateContextEntry<http.HttpLinkHeaders>(
-          (headers) => http.HttpLinkHeaders(
+        return request.updateContextEntry<HttpLinkHeaders>(
+          (headers) => HttpLinkHeaders(
             headers: <String, String>{
               ...headers?.headers ?? <String, String>{},
               if (token != null) headerKey: token,
