@@ -254,7 +254,7 @@ packages:
     description:
       path: "./packages/graphql"
       ref: main_web
-      resolved-ref: "50e6b5c05d923b2fa19019a697c3c7733704f522"
+      resolved-ref: be8cb00dc02dc79aeba5f7a348bba763392623a3
       url: "https://github.com/daydelight-com/graphql-flutter.git"
     source: git
     version: "5.1.2-beta.5"
