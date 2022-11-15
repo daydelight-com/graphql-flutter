@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:graphql/client.dart';
 
 import 'package:gql_transform_link/gql_transform_link.dart';
-import 'package:gql_exec/src/http.dart';
 typedef _RequestTransformer = FutureOr<Request> Function(Request request);
 
 typedef OnException = FutureOr<String> Function(
