@@ -206,28 +206,28 @@ packages:
       name: gql
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.14.0"
+    version: "0.14.1-alpha+1668374584022"
   gql_dedupe_link:
     dependency: transitive
     description:
       name: gql_dedupe_link
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.3+1"
+    version: "2.0.3"
   gql_error_link:
     dependency: transitive
     description:
       name: gql_error_link
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.3+1"
+    version: "0.2.3"
   gql_exec:
     dependency: "direct main"
     description:
       name: gql_exec
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.3"
+    version: "0.4.1"
   gql_http_link:
     dependency: transitive
     description:
@@ -241,20 +241,20 @@ packages:
       name: gql_link
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.0+1"
+    version: "0.5.1-alpha+1660256327632"
   gql_transform_link:
     dependency: transitive
     description:
       name: gql_transform_link
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.2+1"
+    version: "0.2.3-alpha+1660256327655"
   graphql:
     dependency: "direct main"
     description:
       path: "./packages/graphql"
-      ref: main_web
-      resolved-ref: be8cb00dc02dc79aeba5f7a348bba763392623a3
+      ref: main_doyu
+      resolved-ref: bc7f8966dc9f8cada3fb04402b2196772d5634ec
       url: "https://github.com/daydelight-com/graphql-flutter.git"
     source: git
     version: "5.1.2-beta.5"
